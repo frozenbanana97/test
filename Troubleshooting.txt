@@ -1,0 +1,595 @@
+* Jellyfin version: 10.8.8
+* Plugin version: 2.5.1.0
+<details>
+<summary>Configuration</summary>
+<pre>
+&lt;PluginConfiguration&gt;
+  &lt;KeepMoviesFor&gt;-1&lt;/KeepMoviesFor&gt;
+  &lt;KeepFavoriteMovies&gt;AnyUser&lt;/KeepFavoriteMovies&gt;
+  &lt;KeepEpisodesFor&gt;1&lt;/KeepEpisodesFor&gt;
+  &lt;KeepFavoriteEpisodes&gt;AnyUser&lt;/KeepFavoriteEpisodes&gt;
+  &lt;DeleteEpisodes&gt;Episode&lt;/DeleteEpisodes&gt;
+  &lt;KeepVideosFor&gt;1&lt;/KeepVideosFor&gt;
+  &lt;KeepFavoriteVideos&gt;AnyUser&lt;/KeepFavoriteVideos&gt;
+  &lt;UsersIgnorePlayed /&gt;
+  &lt;UsersIgnoreFavorited&gt;
+    &lt;string&gt;86adaf7555784a029de29939c52e0f2a&lt;/string&gt;
+  &lt;/UsersIgnoreFavorited&gt;
+  &lt;LocationsExcluded&gt;
+    &lt;string&gt;/media/youtube&lt;/string&gt;
+    &lt;string&gt;/media/minecraft&lt;/string&gt;
+  &lt;/LocationsExcluded&gt;
+  &lt;LocationsMode&gt;Include&lt;/LocationsMode&gt;
+&lt;/PluginConfiguration&gt;
+</pre>
+</details>
+<details>
+<summary>Log</summary>
+<pre>
+[Deb] MediaCleanupTask: UsersIgnorePlayed: 
+[Deb] MediaCleanupTask: UsersIgnoreFavorited: bananadmin=86adaf75-5578-4a02-9de2-9939c52e0f2a
+[Tra] JunkCollectors.SeriesJunkCollector: Collecting played items for 1 users started at 12/12/2022 07:36:46
+[Deb] ItemsAdapter: &quot;One Shot Quips_The AD-Venture for AD-Barian ｜ LIVE D&amp;D One Shot&quot; played by &quot;bananadmin&quot; (12/12/2022 07:27:41)
+[Deb] ItemsAdapter: &quot;Kurzgesagt – In a Nutshell_How To Terraform Mars - WITH LASERS&quot; played by &quot;bananadmin&quot; (12/11/2022 19:45:22)
+[Deb] ItemsAdapter: &quot;The Linux Experiment_EU destroys Meta, Huge Mint 21.1 Beta, Mac GPU support： Linux &amp; Open Source News&quot; played by &quot;bananadmin&quot; (12/11/2022 19:45:16)
+[Deb] ItemsAdapter: &quot;impulseSV_Hermitcraft 9 ｜ Ep 044： THERE&#39;S NO PLACE LIKE HOME!&quot; played by &quot;bananadmin&quot; (12/11/2022 19:06:35)
+[Deb] ItemsAdapter: &quot;CNC Kitchen_Arc Overhangs make Supports Obsolete!&quot; played by &quot;bananadmin&quot; (12/11/2022 18:50:22)
+[Deb] ItemsAdapter: &quot;BdoubleO100_EXTREMELY Complicated Gunpowder Farm ：： Minecraft Create Mod&quot; played by &quot;bananadmin&quot; (12/11/2022 18:44:20)
+[Deb] ItemsAdapter: &quot;Chris Titus Tech_Docker Guide&quot; played by &quot;bananadmin&quot; (12/11/2022 17:27:41)
+[Deb] ItemsAdapter: &quot;Oh The Urbanity!_The Electric Bike Boom： Are eBikes Really “Cheating”？&quot; played by &quot;bananadmin&quot; (12/11/2022 17:02:36)
+[Deb] ItemsAdapter: &quot;One Shot Quips_When the DM has TOO many Materials for Dungeons and Dragons&quot; played by &quot;bananadmin&quot; (12/10/2022 16:46:25)
+[Deb] ItemsAdapter: &quot;Thomas Sanladerer_Bambu Lab P1P： Tradeoffs&quot; played by &quot;bananadmin&quot; (12/10/2022 16:44:35)
+[Deb] ItemsAdapter: &quot;Eva zu Beck_Crossing the US-Mexico Border Alone&quot; played by &quot;bananadmin&quot; (12/10/2022 16:17:13)
+[Deb] ItemsAdapter: &quot;CaspianReport_Sweden joining NATO would crush Russian power&quot; played by &quot;bananadmin&quot; (12/10/2022 16:07:23)
+[Deb] ItemsAdapter: &quot;XP to Level 3_a regular guy gets a ring of regeneration&quot; played by &quot;bananadmin&quot; (12/10/2022 00:00:56)
+[Deb] ItemsAdapter: &quot;EthosLab_Etho Plays Minecraft - Episode 573： Emerald Trading Room&quot; played by &quot;bananadmin&quot; (12/09/2022 21:15:53)
+[Deb] ItemsAdapter: &quot;impulseSV_We Made Escape Rooms For Each Other! (w⧸ Grian &amp; Joel)&quot; played by &quot;bananadmin&quot; (12/09/2022 20:59:18)
+[Deb] ItemsAdapter: &quot;vlogbrothers_Things are Changing Very Fast&quot; played by &quot;bananadmin&quot; (12/09/2022 18:42:06)
+[Deb] ItemsAdapter: &quot;Johnny Harris_Qatar&#39;s Sudden Rise, Explained&quot; played by &quot;bananadmin&quot; (12/09/2022 18:29:29)
+[Deb] ItemsAdapter: &quot;Johnny Harris_How Did Qatar Get So RICH？&quot; played by &quot;bananadmin&quot; (12/09/2022 17:28:20)
+[Deb] ItemsAdapter: &quot;JerryRigEverything_Our BIGGEST Project Yet!  -  Someone&#39;s gotta do it....&quot; played by &quot;bananadmin&quot; (12/09/2022 16:30:43)
+[Deb] ItemsAdapter: &quot;Adar&quot; played by &quot;bananadmin&quot; (12/09/2022 15:37:30)
+[Deb] ItemsAdapter: &quot;Johnny Harris_Is This the End of Crypto？&quot; played by &quot;bananadmin&quot; (12/09/2022 05:24:36)
+[Deb] ItemsAdapter: &quot;Foil Arms and Hog_Why You Should NEVER Buy Christmas Presents Too Early...&quot; played by &quot;bananadmin&quot; (12/09/2022 05:23:02)
+[Deb] ItemsAdapter: &quot;Johnny Harris_This Island Never Existed&quot; played by &quot;bananadmin&quot; (12/09/2022 05:23:00)
+[Deb] ItemsAdapter: &quot;Matt Lowne_Steam Train Station &amp; Mass Transit! - Adventure Woods Ep. 10 ｜ Planet Coaster&quot; played by &quot;bananadmin&quot; (12/09/2022 05:22:52)
+[Deb] ItemsAdapter: &quot;CruisingTheCut_285A En route to the most unusual canal journey I&#39;ve ever been on.&quot; played by &quot;bananadmin&quot; (12/09/2022 05:22:42)
+[Deb] ItemsAdapter: &quot;Veronica Explains_Vintage Amiga 500 - brand new case from A1200.net!&quot; played by &quot;bananadmin&quot; (12/09/2022 05:22:41)
+[Deb] ItemsAdapter: &quot;One Shot Quips_Druid Jail Break GONE WRONG! ｜ Recreating D&amp;D Stories Ep. 1&quot; played by &quot;bananadmin&quot; (12/09/2022 05:22:39)
+[Deb] ItemsAdapter: &quot;Cleo Abram_Why NASA smacked an asteroid&quot; played by &quot;bananadmin&quot; (12/09/2022 05:22:35)
+[Deb] ItemsAdapter: &quot;The Linux Experiment_System76 Launch HEAVY： the FOSS keyboard + Launch and Launch LITE compared&quot; played by &quot;bananadmin&quot; (12/09/2022 00:31:03)
+[Deb] ItemsAdapter: &quot;impulseSV_Hermitcraft 9 ｜ Ep 043： It&#39;s Time To Go Home.&quot; played by &quot;bananadmin&quot; (12/08/2022 22:44:42)
+[Deb] ItemsAdapter: &quot;How Money Works_Good CEOs Should NOT be Visionaries.&quot; played by &quot;bananadmin&quot; (12/08/2022 22:22:15)
+[Deb] ItemsAdapter: &quot;Chris Titus Tech_Windows Explorer Performance Woes&quot; played by &quot;bananadmin&quot; (12/08/2022 20:52:11)
+[Deb] ItemsAdapter: &quot;Chris Titus Tech_Bypass Paywalls&quot; played by &quot;bananadmin&quot; (12/08/2022 20:52:10)
+[Deb] ItemsAdapter: &quot;Chris Titus Tech_Offline Twitter&quot; played by &quot;bananadmin&quot; (12/08/2022 20:52:08)
+[Deb] ItemsAdapter: &quot;The Linux Experiment_How to use APPLE and iCloud apps and services on LINUX&quot; played by &quot;bananadmin&quot; (12/08/2022 20:52:06)
+[Deb] ItemsAdapter: &quot;Johnny Harris_Why People Disappear in the Bermuda Triangle&quot; played by &quot;bananadmin&quot; (12/08/2022 20:52:03)
+[Deb] ItemsAdapter: &quot;A Very Special Episode&quot; played by &quot;bananadmin&quot; (12/08/2022 19:52:29)
+[Deb] ItemsAdapter: &quot;Mr. Universe&quot; played by &quot;bananadmin&quot; (12/08/2022 19:52:29)
+[Deb] ItemsAdapter: &quot;Snow Day&quot; played by &quot;bananadmin&quot; (12/08/2022 19:52:29)
+[Deb] ItemsAdapter: &quot;Guidance&quot; played by &quot;bananadmin&quot; (12/08/2022 19:52:29)
+[Deb] ItemsAdapter: &quot;Little Graduation&quot; played by &quot;bananadmin&quot; (12/08/2022 19:52:29)
+[Deb] ItemsAdapter: &quot;Rose Buds&quot; played by &quot;bananadmin&quot; (12/08/2022 19:52:29)
+[Deb] ItemsAdapter: &quot;Bismuth Casual&quot; played by &quot;bananadmin&quot; (12/08/2022 19:52:29)
+[Deb] ItemsAdapter: &quot;Volleyball&quot; played by &quot;bananadmin&quot; (12/08/2022 19:52:29)
+[Deb] ItemsAdapter: &quot;Why So Blue?&quot; played by &quot;bananadmin&quot; (12/08/2022 19:52:29)
+[Deb] JunkCollectors.SeriesJunkCollector: Filters order: Expired, Favorites, Locations, Series
+[Deb] JunkCollectors.SeriesJunkCollector: 499 items before filtering
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;One Shot Quips_The AD-Venture for AD-Barian ｜ LIVE D&amp;D One Shot&quot; filtered by Expired
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Kurzgesagt – In a Nutshell_How To Terraform Mars - WITH LASERS&quot; filtered by Expired
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Linux Experiment_EU destroys Meta, Huge Mint 21.1 Beta, Mac GPU support： Linux &amp; Open Source News&quot; filtered by Expired
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;impulseSV_Hermitcraft 9 ｜ Ep 044： THERE&#39;S NO PLACE LIKE HOME!&quot; filtered by Expired
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;CNC Kitchen_Arc Overhangs make Supports Obsolete!&quot; filtered by Expired
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;BdoubleO100_EXTREMELY Complicated Gunpowder Farm ：： Minecraft Create Mod&quot; filtered by Expired
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Chris Titus Tech_Docker Guide&quot; filtered by Expired
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Oh The Urbanity!_The Electric Bike Boom： Are eBikes Really “Cheating”？&quot; filtered by Expired
+[Tra] Filtering.LocationsFilter: &quot;Adar&quot; is belongs to &quot;(null)&quot;
+[Tra] Filtering.LocationsFilter: &quot;A Very Special Episode&quot; is belongs to &quot;(null)&quot;
+[Tra] Filtering.LocationsFilter: &quot;Mr. Universe&quot; is belongs to &quot;(null)&quot;
+[Tra] Filtering.LocationsFilter: &quot;Snow Day&quot; is belongs to &quot;(null)&quot;
+[Tra] Filtering.LocationsFilter: &quot;Guidance&quot; is belongs to &quot;(null)&quot;
+[Tra] Filtering.LocationsFilter: &quot;Little Graduation&quot; is belongs to &quot;(null)&quot;
+[Tra] Filtering.LocationsFilter: &quot;Rose Buds&quot; is belongs to &quot;(null)&quot;
+[Tra] Filtering.LocationsFilter: &quot;Bismuth Casual&quot; is belongs to &quot;(null)&quot;
+[Tra] Filtering.LocationsFilter: &quot;Volleyball&quot; is belongs to &quot;(null)&quot;
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Adar&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;A Very Special Episode&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Mr. Universe&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Snow Day&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Guidance&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Little Graduation&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Rose Buds&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Bismuth Casual&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Volleyball&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Why So Blue?&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Little Homeschool&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Together Forever&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Fragments&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Prickly Pair&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Growing Pains&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Bluebird&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;In Dreams&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Political Power&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Maximum Capacity&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Gemcation&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Greg the Babysitter&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Zoo&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Cry for Help&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Story for Steven&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Gem Drill&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Can&#39;t Go Back&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Sadie&#39;s Song&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Friend Ship&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Frybo&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Steven&#39;s Lion&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Island Adventure&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Tiger Philanthropist&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Jail Break&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Garnet&#39;s Universe&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Earthlings&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Arcade Mania&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;House Guest&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Drop Beat Dad&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Barn Mates&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Future Boy Zoltron&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Alone at Sea&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Kindergarten Kid&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Last One Out of Beach City&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Mr. Greg&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Space Race&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Secret Team&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Bubble Buddies&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Onion Gang&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Message Received&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Three Gems and a Baby&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Monster Buddies&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Steven Floats&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Tiger Millionaire&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;That Will Be All&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Beach Party&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Keystone Motel&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Jungle Moon&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Warp Tour&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Storm in the Room&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Lion 3: Straight to Video&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Big Show&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Beta&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Rocknaldo&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Alone Together&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The New Lars&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Back to the Kindergarten&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Steven the Sword Fighter&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Return&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Watermelon Steven&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Bubbled&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Good Lars&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Letters to Lars&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Gem Heist&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Shirt Club&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Keeping it Together&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Fusion Cuisine&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Steven&#39;s Birthday&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Super Watermelon Island&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Sworn to the Sword&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Future Vision&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Now We&#39;re Only Falling Apart&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Know Your Fusion&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Too Short to Ride&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Adventures in Light Distortion&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Cat Fingers&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;We Need to Talk&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Lion 2: The Movie&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Back to the Barn&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Gem Harvest&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Winter Forecast&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Open Book&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Your Mother and Mine&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Kiki’s Pizza Delivery Service&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;It Could&#39;ve Been Great&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Monster Reunion&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Off Colors&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Steven vs. Amethyst&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Sadie Killer&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;I Am My Mom&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;What&#39;s Your Problem?&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Made of Honor&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;A Single Pale Rose&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Ocean Gem&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Reformed&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Marble Madness&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Rose&#39;s Scabbard&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Historical Friction&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Pool Hopping&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Message&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Horror Club&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Room for Ruby&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Familiar&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Buddy&#39;s Book&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Together Alone&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Trial&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Catch and Release&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Reunited&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Serious Steven&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Are You My Dad?&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Lars and the Cool Kids&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Joy Ride&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Crack the Whip&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;An Indirect Kiss&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;On the Run&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Lion 4: Alternate Ending&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Keep Beach City Weird!&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Chille Tid&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Raising the Barn&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Question&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Steven&#39;s Dream&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Love Letters&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Onion Friend&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Rose&#39;s Room&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Lars of the Stars&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Mirror Gem&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Change Your Mind&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Rising Tides, Crashing Skies&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Onion Trade&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Too Far&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Coach Steven&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Lars&#39; Head&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Bismuth&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Steven and the Stevens&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Answer&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Say Uncle&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Dewey Wins&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Gem Hunt&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Together Breakfast&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Back to the Moon&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Log Date 7 15 2&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Same Old World&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Gem Glow&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Escapism&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Full Disclosure&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Cheeseburger Backpack&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Mindful Education&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The New Crystal Gems&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Test&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Nightmare Hospital&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Giant Woman&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Doug Out&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;So Many Birthdays&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Restaurant Wars&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;When It Rains&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Legs From Here to Homeworld&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Beach City Drift&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Stuck Together&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Kevin Party&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Hit the Diamond&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Joking Victim&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Laser Light Cannon&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Burning Miles&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Drenching Dallas&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Malachi&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Overachieving Virgins&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Tons of Rue&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Walleye&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Toledo&#39;s Top 100&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Happiness&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Dating Toledoans&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Melvin&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;An Oath to Rusty&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Handcuffed&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Gary Meets Dave&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Spectacle&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Dr. Whoopsie&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Love, for Lack of a Better Term&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Mr. Pistachio&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Personal Everest&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Sweet Low Road&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Perfect Date From Hell&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Harvard Pen&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Sweatpants&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Pilot: Catfish&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;J&#39;Accuse&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Katie Holmes Day&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Wednesday Morning, 8AM&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Get Hoppy!&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Kinda Sorta&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Rosemary&#39;s Boyfriend&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Aces Wild&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Durbin Crashes&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Tiny Problems&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;We Don&#39;t Party&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Disgraced&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Freakin&#39; Enamored&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Ride the Ram&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Nuns&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;That That That&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Selling Out&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Tornado!&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Eight Pigs and a Rat&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Teacher Jail&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Antisocialism of Sex&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;History Yet to Be Written&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Ruthless in Purpose, and Insidious in Method&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Clutch of Greed&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Redesign of Natural Objects&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Mitigation of Competition&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Newer Elements of Our Defense&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;To Right the Wrongs of Many&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Let the Children and Childbearers Toil&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Formalized, Complex, and Costly&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Gag or Throttle&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;From Dancing Mice to Psychopaths&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Ease for Idle Millionaires&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Insolvent Phantom of Tomorrow&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Manacled Slim Wrists&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Scandal of Altruism&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;From Instinct to Rational Control&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Stigmata of Progress&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Weight of This Combination&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Transitory Sacrifices of Crisis&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Certain Agony of the Battlefield&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Few Who Dare&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;One Fettered Slave&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Human Raw Material&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Scarred by Many Past Frustrations&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Collapse of Nature&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Transgressive Border Crossing&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Beneath Her Heart&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Community of Dreadful Fear and Hate&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Guillotines Decide&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Pine Barrens&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Animal Control&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Casino&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Chamber of Judgement&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Citizenship&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Nouveau Th&#233;&#226;tre des Vampires&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Trial&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Werewolf Feud&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Grand Opening&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Colin&#39;s Promotion&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;On the Run&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;A Farewell&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Escape&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Resurrection&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Lamp&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Gail&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Go Flip Yourself&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Freddie&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Orgy&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Private School&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Night Market&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Wedding&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Manhattan Night Club&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Brain Scramblies&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Ghosts&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Cloak of Duplication&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Siren&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Curse&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Wellness Center&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Prisoner&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Sunrise, Sunset&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Portrait&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Baron&#39;s Night Out&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Witches&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Reunited&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Collaboration&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Ancestry&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Pilot&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;City Council&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Return&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Invasion: The Day of Black Sun (1)&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Bitter Work&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Return to Omashu&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Storm&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Great Divide&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Jet&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Avatar Day&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Tales of Ba Sing Se&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Siege of the North (2)&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Beach&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The King of Omashu&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Nightmares and Daydreams&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Spirit World: Winter Solstice (1)&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Sozin&#39;s Comet, Part 1: The Phoenix King&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Blind Bandit&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Imprisoned&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Serpent&#39;s Pass&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;City of Walls and Secrets&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Painted Lady&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Earth King&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Waterbending Master&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Avatar Roku: Winter Solstice (2)&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Boiling Rock (1)&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Western Air Temple&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Siege of the North (1)&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Puppetmaster&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Avatar Returns&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Fortuneteller&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Zuko Alone&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Lake Laogai&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Avatar and the Fire Lord&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Boy in the Iceberg&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Desert&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Southern Air Temple&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Avatar State&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Warriors of Kyoshi&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Runaway&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Cave of Two Lovers&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Library&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Appa&#39;s Lost Days&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Bato of the Water Tribe&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Chase&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Swamp&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Deserter&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Northern Air Temple&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Waterbending Scroll&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Firebending Masters&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Ember Island Players&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Guru&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Southern Raiders&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Blue Spirit&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Headband&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Awakening&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Sokka&#39;s Master&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Adrift&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Eye&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Great Wave&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;A Shadow of the Past&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Alloyed&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Ud&#251;n&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Partings&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Pillows and Blankets (2)&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Basic Sandwich&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Intro to Felt Surrogacy&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Conspiracy Theories and Interior Design&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Intro to Political Science&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Basic RV Repair and Palmistry&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Basic Crisis Room Decorum&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Paradigms of Human Memory&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Advanced Criminal Law&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Advanced Gay&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Basic Lupine Urology&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Documentary Filmmaking: Redux&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Communication Studies&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Accounting for Lawyers&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;App Development and Condiments&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Basic Genealogy&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Urban Matrimony and the Sandwich Arts&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Basic Story&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Investigative Journalism&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Intermediate Documentary Filmmaking&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Alternative History of the German Invasion&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Foosball and Nocturnal Vigilantism&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Beginner Pottery&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Asian Population Studies&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Science of Illusion&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Grifting 101&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Studies in Modern Movement&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Paranormal Parentage&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Curriculum Unavailable&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Virtual Systems Analysis&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Advanced Introduction to Finality&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Geothermal Escapism&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Celebrity Pharmacology&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Cooperative Calligraphy&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Spanish 101&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Course Listing Unavailable&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;G.I. Jeff&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Intro to Knots&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Comparative Religion&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Horror Fiction in Seven Spooky Steps&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Applied Anthropology and Culinary Arts&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Abed&#39;s Uncontrollable Christmas&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Custody Law and Eastern European Diplomacy&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Analysis of Cork-Based Networking&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Remedial Chaos Theory&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Politics of Human Sexuality&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Introduction to Finality&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Digital Exploration of Interior Design (1)&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Regional Holiday Music&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;A Fistful of Paintballs (1)&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;VCR Maintenance and Educational Publishing&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Mixology Certification&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Competitive Ecology&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Aerodynamics of Gender&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Advanced Dungeons &amp; Dragons&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Messianic Myths and Ancient Peoples&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Ladders&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Environmental Science&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Pilot&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Economics of Marine Biology&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Introduction to Film&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Epidemiology&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Basic Human Anatomy&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Advanced Safety Features&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Football, Feminism and You&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Emotional Consequences of Broadcast Television&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Modern Espionage&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Early 21st Century Romanticism&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Interpretive Dance&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Contemporary Impressionists&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Competitive Wine Tasting&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Biology 101&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Anthropology 101&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Queer Studies &amp; Advanced Waxing&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Origins of Vampire Mythology&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Cooperative Polygraphy&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Digital Estate Planning&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Romantic Expressionism&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Basic Rocket Science&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Critical Film Studies&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Social Psychology&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Home Economics&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Advanced Documentary Filmmaking&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Lawnmower Maintenance and Postnatal Care&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Intro to Recycled Cinema&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Contemporary American Poultry&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Modern Warfare&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Introduction to Statistics&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Physical Education&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Cooperative Escapism in Familial Relations&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Debate 109&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Repilot&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Wedding Videography&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Advanced Advanced Dungeons &amp; Dragons&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;History 101&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Introduction to Teaching&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Herstory of Dance&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Geography of Global Conflict&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Heroic Origins&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Bondage and Beta Male Sexuality&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;English as a Second Language&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;For a Few Paintballs More (2)&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Pascal&#39;s Triangle Revisited&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Basic Intergluteal Numismatics&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Conventions of Space and Time&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Psychology of Letting Go&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Laws of Robotics and Party Rights&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The First Chang Dynasty&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Art of Discourse&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Basic Email Security&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;King of the Narrow Sea&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Driftmark&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Lord of the Tides&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Rogue Prince&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Black Queen&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Green Council&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Princess and the Queen&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;Second of His Name&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;The Heirs of the Dragon&quot; filtered by Locations
+[Tra] JunkCollectors.SeriesJunkCollector: &quot;We Light the Way&quot; filtered by Locations
+[Deb] JunkCollectors.SeriesJunkCollector: 27 items after filtering
+[Tra] JunkCollectors.SeriesJunkCollector: Collecting finished at 12/12/2022 07:36:46
+[Tra] JunkCollectors.VideosJunkCollector: Collecting played items for 1 users started at 12/12/2022 07:36:46
+[Deb] JunkCollectors.VideosJunkCollector: Filters order: Expired, Favorites, Locations
+[Deb] JunkCollectors.VideosJunkCollector: 0 items before filtering
+[Deb] JunkCollectors.VideosJunkCollector: 0 items after filtering
+[Tra] JunkCollectors.VideosJunkCollector: Collecting finished at 12/12/2022 07:36:46
+[Inf] MediaCleanupTask: (Episode) &quot;Johnny Harris_Why People Disappear in the Bermuda Triangle&quot; will be deleted because expired for &quot;bananadmin&quot; (12/08/2022 20:52:03)
+[Inf] MediaCleanupTask: (Episode) &quot;The Linux Experiment_How to use APPLE and iCloud apps and services on LINUX&quot; will be deleted because expired for &quot;bananadmin&quot; (12/08/2022 20:52:06)
+[Inf] MediaCleanupTask: (Episode) &quot;Chris Titus Tech_Offline Twitter&quot; will be deleted because expired for &quot;bananadmin&quot; (12/08/2022 20:52:08)
+[Inf] MediaCleanupTask: (Episode) &quot;Chris Titus Tech_Bypass Paywalls&quot; will be deleted because expired for &quot;bananadmin&quot; (12/08/2022 20:52:10)
+[Inf] MediaCleanupTask: (Episode) &quot;Chris Titus Tech_Windows Explorer Performance Woes&quot; will be deleted because expired for &quot;bananadmin&quot; (12/08/2022 20:52:11)
+[Inf] MediaCleanupTask: (Episode) &quot;How Money Works_Good CEOs Should NOT be Visionaries.&quot; will be deleted because expired for &quot;bananadmin&quot; (12/08/2022 22:22:15)
+[Inf] MediaCleanupTask: (Episode) &quot;impulseSV_Hermitcraft 9 ｜ Ep 043： It&#39;s Time To Go Home.&quot; will be deleted because expired for &quot;bananadmin&quot; (12/08/2022 22:44:42)
+[Inf] MediaCleanupTask: (Episode) &quot;The Linux Experiment_System76 Launch HEAVY： the FOSS keyboard + Launch and Launch LITE compared&quot; will be deleted because expired for &quot;bananadmin&quot; (12/09/2022 00:31:03)
+[Inf] MediaCleanupTask: (Episode) &quot;Cleo Abram_Why NASA smacked an asteroid&quot; will be deleted because expired for &quot;bananadmin&quot; (12/09/2022 05:22:35)
+[Inf] MediaCleanupTask: (Episode) &quot;One Shot Quips_Druid Jail Break GONE WRONG! ｜ Recreating D&amp;D Stories Ep. 1&quot; will be deleted because expired for &quot;bananadmin&quot; (12/09/2022 05:22:39)
+[Inf] MediaCleanupTask: (Episode) &quot;Veronica Explains_Vintage Amiga 500 - brand new case from A1200.net!&quot; will be deleted because expired for &quot;bananadmin&quot; (12/09/2022 05:22:41)
+[Inf] MediaCleanupTask: (Episode) &quot;CruisingTheCut_285A En route to the most unusual canal journey I&#39;ve ever been on.&quot; will be deleted because expired for &quot;bananadmin&quot; (12/09/2022 05:22:42)
+[Inf] MediaCleanupTask: (Episode) &quot;Matt Lowne_Steam Train Station &amp; Mass Transit! - Adventure Woods Ep. 10 ｜ Planet Coaster&quot; will be deleted because expired for &quot;bananadmin&quot; (12/09/2022 05:22:52)
+[Inf] MediaCleanupTask: (Episode) &quot;Johnny Harris_This Island Never Existed&quot; will be deleted because expired for &quot;bananadmin&quot; (12/09/2022 05:23:00)
+[Inf] MediaCleanupTask: (Episode) &quot;Foil Arms and Hog_Why You Should NEVER Buy Christmas Presents Too Early...&quot; will be deleted because expired for &quot;bananadmin&quot; (12/09/2022 05:23:02)
+[Inf] MediaCleanupTask: (Episode) &quot;Johnny Harris_Is This the End of Crypto？&quot; will be deleted because expired for &quot;bananadmin&quot; (12/09/2022 05:24:36)
+[Inf] MediaCleanupTask: (Episode) &quot;JerryRigEverything_Our BIGGEST Project Yet!  -  Someone&#39;s gotta do it....&quot; will be deleted because expired for &quot;bananadmin&quot; (12/09/2022 16:30:43)
+[Inf] MediaCleanupTask: (Episode) &quot;Johnny Harris_How Did Qatar Get So RICH？&quot; will be deleted because expired for &quot;bananadmin&quot; (12/09/2022 17:28:20)
+[Inf] MediaCleanupTask: (Episode) &quot;Johnny Harris_Qatar&#39;s Sudden Rise, Explained&quot; will be deleted because expired for &quot;bananadmin&quot; (12/09/2022 18:29:29)
+[Inf] MediaCleanupTask: (Episode) &quot;vlogbrothers_Things are Changing Very Fast&quot; will be deleted because expired for &quot;bananadmin&quot; (12/09/2022 18:42:06)
+[Inf] MediaCleanupTask: (Episode) &quot;impulseSV_We Made Escape Rooms For Each Other! (w⧸ Grian &amp; Joel)&quot; will be deleted because expired for &quot;bananadmin&quot; (12/09/2022 20:59:18)
+[Inf] MediaCleanupTask: (Episode) &quot;EthosLab_Etho Plays Minecraft - Episode 573： Emerald Trading Room&quot; will be deleted because expired for &quot;bananadmin&quot; (12/09/2022 21:15:53)
+[Inf] MediaCleanupTask: (Episode) &quot;XP to Level 3_a regular guy gets a ring of regeneration&quot; will be deleted because expired for &quot;bananadmin&quot; (12/10/2022 00:00:56)
+[Inf] MediaCleanupTask: (Episode) &quot;CaspianReport_Sweden joining NATO would crush Russian power&quot; will be deleted because expired for &quot;bananadmin&quot; (12/10/2022 16:07:23)
+[Inf] MediaCleanupTask: (Episode) &quot;Eva zu Beck_Crossing the US-Mexico Border Alone&quot; will be deleted because expired for &quot;bananadmin&quot; (12/10/2022 16:17:13)
+[Inf] MediaCleanupTask: (Episode) &quot;Thomas Sanladerer_Bambu Lab P1P： Tradeoffs&quot; will be deleted because expired for &quot;bananadmin&quot; (12/10/2022 16:44:35)
+[Inf] MediaCleanupTask: (Episode) &quot;One Shot Quips_When the DM has TOO many Materials for Dungeons and Dragons&quot; will be deleted because expired for &quot;bananadmin&quot; (12/10/2022 16:46:25)
+</pre>
+</details>
